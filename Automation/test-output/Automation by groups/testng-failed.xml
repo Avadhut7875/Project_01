@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation by groups]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GRP-Functional(failed)">
+    <groups>
+      <run>
+        <include name="Functional"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testng.Script_01">
+        <methods>
+          <include name="dTest"/>
+        </methods>
+      </class> <!-- testng.Script_01 -->
+    </classes>
+  </test> <!-- GRP-Functional(failed) -->
+</suite> <!-- Failed suite [Automation by groups] -->
